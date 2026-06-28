@@ -1,9 +1,7 @@
-import React from 'react'
+import React from "react";
 
 function Unleash() {
-  return (
-    <div>Unleash</div>
-  )
+  return <div>Unleash</div>;
 }
 
-export default Unleash
+export default Unleash;
