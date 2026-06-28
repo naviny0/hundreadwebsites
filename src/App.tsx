@@ -4,6 +4,7 @@ import About from "./pages/About";
 import Home from "./pages/Home";
 import type { ReactElement } from "react";
 import Fanta from "./pages/website/Fanta";
+import Unleash from "./pages/website/Unleash";
 
 function App() {
   interface AppRoute {
@@ -14,6 +15,7 @@ function App() {
     { path: "/", element: <Home /> },
     { path: "/about", element: <About /> },
     { path: "/fanta", element: <Fanta /> },
+    { path: "/unleash", element: <Unleash /> },
   ];
   return (
     <Routes>

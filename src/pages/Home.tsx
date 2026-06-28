@@ -1,16 +1,18 @@
 import { Link } from "react-router-dom";
+import finta from '../assets/webs/finta.png'
 
 interface Website {
   name: string;
   link: string;
+  img: string
 }
 interface websiteCardProps {
   website: Website;
 }
 function Home() {
   const Websites: Website[] = [
-    { name: "Fanta", link: "/fanta" },
-    { name: "Unleash", link: "/unleash" },
+    { name: "Fanta", link: "/fanta", img: finta },
+    { name: "Unleash", link: "/unleash", img: finta },
   ];
   return (
     <div className="h-screen w-full bg-gray-950 text-gray-100">
@@ -39,7 +41,7 @@ export function WebsiteCard({ website }: websiteCardProps) {
       className="rounded-lg border border-gray-700 bg-gray-900 p-4 transition hover:border-amber-500 hover:bg-gray-800"
     >
       <h2 className="font-semibold">{website.name}</h2>
-      {/* <img src="" alt="" /> */}
+      <img src={website.img} alt={website.name} />
     </Link>
   );
 }
