@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import finta from '../assets/webs/finta.png'
+import cobalt from '../assets/webs/cobalt.png'
 
 interface Website {
   name: string;
@@ -12,7 +13,7 @@ interface websiteCardProps {
 function Home() {
   const Websites: Website[] = [
     { name: "Fanta", link: "/fanta", img: finta },
-    { name: "Unleash", link: "/unleash", img: finta },
+    { name: "Cobalt", link: "/cobalt", img: cobalt },
   ];
   return (
     <div className="h-screen w-full bg-gray-950 text-gray-100">
