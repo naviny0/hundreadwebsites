@@ -5,6 +5,7 @@ import Home from "./pages/Home";
 import type { ReactElement } from "react";
 import Fanta from "./pages/website/Fanta";
 import Cobalt from "./pages/website/Cobalt";
+import Lp from "./pages/website/Lp";
 
 function App() {
   interface AppRoute {
@@ -16,6 +17,7 @@ function App() {
     { path: "/about", element: <About /> },
     { path: "/fanta", element: <Fanta /> },
     { path: "/cobalt", element: <Cobalt /> },
+    { path: "/lp", element: <Lp /> },
   ];
   return (
     <Routes>

@@ -14,6 +14,7 @@ function Home() {
   const Websites: Website[] = [
     { name: "Fanta", link: "/fanta", img: finta },
     { name: "Cobalt", link: "/cobalt", img: cobalt },
+    { name: "Lp", link: "/lp", img: cobalt },
   ];
   return (
     <div className="h-screen w-full bg-gray-950 text-gray-100">
