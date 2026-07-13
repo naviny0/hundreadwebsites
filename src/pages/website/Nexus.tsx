@@ -4,9 +4,9 @@ import dasImg from "../../assets/cube/dascub.png";
 import { MdOutlineDashboard } from "react-icons/md";
 import { VscGraph } from "react-icons/vsc";
 import { LuUsers } from "react-icons/lu";
-import { FaHamburger, FaLock } from "react-icons/fa";
-import { GiHamburger, GiHamburgerMenu } from "react-icons/gi";
 import { useState } from "react";
+import { GiHamburgerMenu } from "react-icons/gi";
+import { FaLock } from "react-icons/fa";
 const Nexus = () => {
   return (
     <div className="overflow-hidden bg-gray-100 px-4 font-sans">
