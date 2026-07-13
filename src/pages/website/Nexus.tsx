@@ -75,8 +75,8 @@ const Header = () => {
 const Hero = () => {
   return (
     <section className="mx-auto max-w-5xl font-sans">
-      <div className="flex flex-col items-center justify-between md:flex-row">
-        <div className="space-y-2">
+      <div className="flex flex-col items-center justify-between md:flex-row md:items-start">
+        <div className="space-y-2 md:mt-10">
           <div className="my-3 flex items-center gap-4 rounded-full text-xs">
             <span className="rounded-full border border-gray-300 px-3 py-1 text-xs">
               NEW
@@ -85,7 +85,7 @@ const Hero = () => {
               Introducing Nexus 2.0 →
             </span>
           </div>
-          <h1 className="text-4xl font-bold md:text-5xl">
+          <h1 className="text-4xl font-bold md:text-6xl">
             Simplify. Organize. Achieve.
           </h1>
           <p className="my-5 w-72 text-sm text-gray-600">

@@ -2,6 +2,7 @@ import { Link } from "react-router-dom";
 import finta from "../assets/webs/finta.png";
 import cobalt from "../assets/webs/cobalt.png";
 import lp from "../assets/webs/lp.png";
+import cube from "../assets/webs/cub.png";
 
 interface Website {
   name: string;
@@ -16,7 +17,7 @@ function Home() {
     { name: "Fanta", link: "/fanta", img: finta },
     { name: "Cobalt", link: "/cobalt", img: cobalt },
     { name: "Lp", link: "/lp", img: lp },
-    { name: "Nexus", link: "/nexus", img: lp },
+    { name: "Nexus", link: "/nexus", img: cube },
   ];
   return (
     <div className="h-screen w-full bg-gray-950 text-gray-100">
@@ -42,10 +43,10 @@ export function WebsiteCard({ website }: websiteCardProps) {
   return (
     <Link
       to={website.link}
-      className="rounded-lg border border-gray-700 bg-gray-900 p-4 transition hover:border-amber-500 hover:bg-gray-800"
+      className="size-70 overflow-hidden rounded-lg border border-gray-700 bg-gray-900 p-4 transition hover:border-amber-500 hover:bg-gray-800"
     >
       <h2 className="font-semibold">{website.name}</h2>
-      <img src={website.img} alt={website.name} />
+      <img className="w-full" src={website.img} alt={website.name} />
     </Link>
   );
 }
