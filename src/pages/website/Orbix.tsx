@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import { HiMiniWallet } from "react-icons/hi2";
 import orbix from "../../assets/orbix/orbix.png";
 import { cn } from "../../libs/utils";
