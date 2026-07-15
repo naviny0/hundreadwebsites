@@ -4,6 +4,7 @@ import cobalt from "../assets/webs/cobalt.png";
 import lp from "../assets/webs/lp.png";
 import cube from "../assets/webs/cub.png";
 import orb from "../assets/webs/orb.png";
+import sig from "../assets/webs/signal.png";
 
 interface Website {
   name: string;
@@ -20,6 +21,7 @@ function Home() {
     { name: "Lp", link: "/lp", img: lp },
     { name: "Nexus", link: "/nexus", img: cube },
     { name: "orbix", link: "/orbix", img: orb },
+    { name: "signal", link: "/signal", img: sig },
   ];
   return (
     <div className="w-full bg-gray-950 p-4 text-gray-100">

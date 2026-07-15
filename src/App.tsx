@@ -8,6 +8,8 @@ import Cobalt from "./pages/website/Cobalt";
 import Lp from "./pages/website/Lp";
 import Nexus from "./pages/website/Nexus";
 import Orbix from "./pages/website/Orbix";
+import Dash from "./pages/website/Dashboard/Dash";
+import SignalSales from "./pages/website/SignalSales";
 
 function App() {
   interface AppRoute {
@@ -22,6 +24,8 @@ function App() {
     { path: "/lp", element: <Lp /> },
     { path: "/nexus", element: <Nexus /> },
     { path: "/orbix", element: <Orbix /> },
+    { path: "/signal", element: <SignalSales /> },
+    { path: "/dashboard", element: <Dash /> },
   ];
   return (
     <Routes>
