@@ -10,6 +10,7 @@ import Nexus from "./pages/website/Nexus";
 import Orbix from "./pages/website/Orbix";
 import Dash from "./pages/website/Dashboard/Dash";
 import SignalSales from "./pages/website/SignalSales";
+import Lgpsm from "./pages/website/Lgpsm";
 
 function App() {
   interface AppRoute {
@@ -19,6 +20,7 @@ function App() {
   const routes: AppRoute[] = [
     { path: "/", element: <Home /> },
     { path: "/about", element: <About /> },
+    { path: "/lgpsm", element: <Lgpsm /> },
     { path: "/fanta", element: <Fanta /> },
     { path: "/cobalt", element: <Cobalt /> },
     { path: "/lp", element: <Lp /> },
